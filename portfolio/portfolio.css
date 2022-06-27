@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+    	section
+      	{ 
+    		box-sizing: border-box;
+      		background-repeat: no-repeat;
+    		width: 98.7vw;
+    		height: 50vw;
+    		padding: 160px;
+    	}
+    	.whitetxt
+    	{
+    		color: white;
+
+    	}
+    	.txt
+    	{
+    		color: #cf731e;
+    	}
+    	.colorbtn
+    	{
+    		/*background: #482e56;*/
+    		background-color: #d637c3;
+    		outline: none;
+    		border-radius: 15px;
+    		color: white;
+    	}
+    	.colorbtn:hover
+    	{
+    		color: #482e56;
+    		background-color: white;
+    		outline: none;
+    	}
+    	.colorbtn:focus
+    	{
+    		color: #482e56;
+    		background-color: white;
+    		outline: none;
+    	}
+    	.diflo1
+    	{
+    		float: left;
+    	}
+    	.diflo11
+    	{
+    		float: left;
+    		float: clear;
+    		padding-left: 340px;
+    	}
+    	.imghome
+    	{
+    		position: absolute;
+    		top: 20px;
+    		right: 20px;
+    		-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1)
+    	}
+    	#grd
+        {
+        	height: 250px;
+		 	width: 250px;
+            clear: both;
+            background: radial-gradient(rgba(190,140,190,0.5),rgba(190,140,190,0.5));
+            border-radius: 50%;
+            position: absolute;
+            top: 190px;
+    		right: 250px;
+            
+        }
+        .imggallery
+        {
+        	float: left;
+        	width: 300px;
+        	border-radius: 5px;
+        }
+        .imggallery:hover
+        {
+        	opacity: .5;
+        }
